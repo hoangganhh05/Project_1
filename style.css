@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  background: #e2e2e2;
+  width: 90%;
+  min-width: 940px;
+}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-right {
+  clear: both;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: left; /* Căn giữa ngang */
+  align-items: center; /* Căn giữa dọc */
+  height: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px; /* Khoảng cách với mép */
+}

@@ -25,7 +25,7 @@ img {
 
 .logo-container {
   display: flex;
-  justify-content: left; /* Căn giữa ngang */
+  justify-content: center; /* Căn giữa ngang */
   align-items: center; /* Căn giữa dọc */
   height: 100px;
 }
@@ -35,4 +35,17 @@ img {
   top: 0;
   left: 0;
   margin: 10px; /* Khoảng cách với mép */
+}
+
+.class{
+  text-align: center;
+  font-size: 200%;
+}
+.MEME{
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Dịch ngược lại 50% chiều rộng & cao */
 }
